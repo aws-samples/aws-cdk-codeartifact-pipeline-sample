@@ -1,0 +1,39 @@
+<settings xmlns="http://maven.apache.org/SETTINGS/1.0.0"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0 http://maven.apache.org/xsd/settings-1.0.0.xsd">
+
+<servers>
+  <server>
+    <id>cdkpipelines-codeartifact--cdkpipelines-codeartifact-repository</id>
+    <username>aws</username>
+    <password>${env.CODEARTIFACT_AUTH_TOKEN}</password>
+  </server>
+</servers>
+  
+<mirrors>
+  <mirror>
+    <id>cdkpipelines-codeartifact--cdkpipelines-codeartifact-repository</id>
+    <name>cdkpipelines-codeartifact--cdkpipelines-codeartifact-repository</name>
+    <url>https://cdkpipelines-codeartifact-123456789012.d.codeartifact.ap-south-1.amazonaws.com/maven/cdkpipelines-codeartifact-repository/</url>
+    <mirrorOf>*</mirrorOf>
+  </mirror>
+</mirrors>
+
+<profiles>
+  <profile>
+    <id>cdkpipelines-codeartifact--cdkpipelines-codeartifact-repository</id>
+    <activation>
+      <activeByDefault>true</activeByDefault>
+    </activation>
+    <repositories>
+      <repository>
+        <id>cdkpipelines-codeartifact--cdkpipelines-codeartifact-repository</id>
+        <url>https://cdkpipelines-codeartifact-123456789012.d.codeartifact.ap-south-1.amazonaws.com/maven/cdkpipelines-codeartifact-repository/</url>
+        <snapshots>
+        <enabled>true</enabled>
+        </snapshots>             
+      </repository>
+    </repositories>
+  </profile>
+</profiles>
+</settings>

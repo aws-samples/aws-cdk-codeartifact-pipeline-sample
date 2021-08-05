@@ -1,0 +1,14 @@
+AWSTemplateFormatVersion: "2010-09-09"
+Description: AWS SAM template for the AWS::CodeArtifact::Repository resource type
+Resources:
+  MyCodeArtifactDomain:
+    Type: 'AWS::CodeArtifact::Domain'
+    Properties:
+      DomainName: "cdkpipelines-codeartifact"
+  MyCodeArtifactUpstreamRepository:
+    Type: 'AWS::CodeArtifact::Repository'
+    Properties:
+      RepositoryName: "cdkpipelines-codeartifact-repository"
+      DomainName: !GetAtt MyCodeArtifactDomain.Name
+      ExternalConnections:
+        - public:maven-central
