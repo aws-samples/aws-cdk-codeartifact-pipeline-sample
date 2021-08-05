@@ -6,6 +6,15 @@ Developing and deploying applications rapidly to users requires a working pipeli
 
 This repository wil help build a simple DevOps pipeline for a sample JAVA application (JAR file) to be built with Maven. The Pipeline is built on a sample Java application called [**java-events**](https://github.com/awsdocs/aws-lambda-developer-guide/tree/main/sample-apps/java-events). You can find numerous sample applications on GitHub [here](https://github.com/awsdocs/aws-lambda-developer-guide/tree/main/sample-apps).
 
+## Prerequisites
+
+This solution is built on AWS CDK. Please go through below webpages to setup initial CDL Toolkit
+
+1. https://docs.aws.amazon.com/cdk/latest/guide/getting_started.html#getting_started_prerequisites
+2. https://intro-to-cdk.workshop.aws/
+3. https://cdkworkshop.com/
+4. https://cdkworkshop.com/15-prerequisites.html
+
 
 ## Setup
 
