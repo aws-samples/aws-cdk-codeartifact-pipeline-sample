@@ -32,14 +32,15 @@ The AWS CDK code requires the following packages in order to build the CI/CD pip
 @aws-cdk/cloudformation-include
 ```
 ## Install the required AWS CDK packages as below:
-
+```
 npm i @aws-cdk/core @aws-cdk/aws-codepipeline @aws-cdk/aws-codepipeline-actions @aws-cdk/aws-codecommit @aws-cdk/aws-codebuild @aws-cdk/pipelines @aws-cdk/aws-iam @ @aws-cdk/cloudformation-include
-
+```
 ## Compile the AWS CDK code:
-
+```
 npm run build
-
+```
 ## Deploy the AWS CDK code:
-
+```
 cdk synth
 cdk deploy
+```
