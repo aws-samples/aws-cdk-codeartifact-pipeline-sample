@@ -10,21 +10,27 @@ This repository wil help build a simple DevOps pipeline for a sample JAVA applic
 ## Setup
 
 Clone the GitHub repository as follows:
-
+```
 git clone git@github.com:aws-samples/aws-cdk-codeartifact-pipeline-sample.git
-
+```
 ## Deploy the Pipeline
 
 The AWS CDK code requires the following packages in order to build the CI/CD pipeline:
-
+```
 @aws-cdk/core
-@aws-cdk/aws-codepipeline
-@aws-cdk/aws-codepipeline-actions
-@aws-cdk/aws-codecommit
-@aws-cdk/aws-codebuild
-@aws-cdk/aws-iam
-@aws-cdk/cloudformation-include
 
+@aws-cdk/aws-codepipeline
+
+@aws-cdk/aws-codepipeline-actions
+
+@aws-cdk/aws-codecommit
+
+@aws-cdk/aws-codebuild
+
+@aws-cdk/aws-iam
+
+@aws-cdk/cloudformation-include
+```
 ## Install the required AWS CDK packages as below:
 
 npm i @aws-cdk/core @aws-cdk/aws-codepipeline @aws-cdk/aws-codepipeline-actions @aws-cdk/aws-codecommit @aws-cdk/aws-codebuild @aws-cdk/pipelines @aws-cdk/aws-iam @ @aws-cdk/cloudformation-include
