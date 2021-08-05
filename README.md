@@ -23,7 +23,7 @@ This solution is built on AWS CDK. Please go through below webpages to setup ini
 
 Clone the GitHub repository as follows:
 ```
-git clone git@github.com:aws-samples/aws-cdk-codeartifact-pipeline-sample.git
+git clone https://github.com/aws-samples/aws-cdk-codeartifact-pipeline-sample.git
 ```
 ## Deploy the Pipeline
 
