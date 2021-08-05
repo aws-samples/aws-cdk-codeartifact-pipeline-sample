@@ -56,3 +56,13 @@ npm run build
 cdk synth
 cdk deploy
 ```
+
+
+## Security
+See CONTRIBUTING.md for more information.
+
+## Code Of Conduct
+See CODE_OF_CONDUCT.md for more information.
+
+## License
+This project is licensed under the MIT-0 License.
