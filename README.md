@@ -4,7 +4,7 @@
 
 Developing and deploying applications rapidly to users requires a working pipeline that accepts the user code (usually via a Git repository). AWS CodeArtifact was announced in 2020. It’s a secure and scalable artifact management product that easily integrates with other AWS products and services. CodeArtifact allows you to publish, store, and view packages, list package dependencies, and share your application’s packages.
 
-This repository wil help build a simple DevOps pipeline for a sample JAVA application (JAR file) to be built with Maven. The Pipeline is built on a sample Java application called [**java-events**](https://github.com/awsdocs/aws-lambda-developer-guide/tree/main/sample-apps/java-events). You can find numerous sample applications on GitHub [here](https://github.com/awsdocs/aws-lambda-developer-guide/tree/main/sample-apps). For this post, we use the sample application java-events.
+This repository wil help build a simple DevOps pipeline for a sample JAVA application (JAR file) to be built with Maven. The Pipeline is built on a sample Java application called [**java-events**](https://github.com/awsdocs/aws-lambda-developer-guide/tree/main/sample-apps/java-events). You can find numerous sample applications on GitHub [here](https://github.com/awsdocs/aws-lambda-developer-guide/tree/main/sample-apps).
 
 
 ## Setup
