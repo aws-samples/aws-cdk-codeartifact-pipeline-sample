@@ -8,11 +8,14 @@ This repository wil help build a simple DevOps pipeline for a sample JAVA applic
 
 ## Prerequisites
 
-This solution is built on AWS CDK. Please go through below webpages to setup initial CDL Toolkit
+This solution is built on AWS CDK. Please go through below webpages to setup initial CDK Toolkit and other important tools -
 
 1. https://docs.aws.amazon.com/cdk/latest/guide/getting_started.html#getting_started_prerequisites
+
 2. https://intro-to-cdk.workshop.aws/
+
 3. https://cdkworkshop.com/
+
 4. https://cdkworkshop.com/15-prerequisites.html
 
 
